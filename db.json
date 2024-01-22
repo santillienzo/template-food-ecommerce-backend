@@ -5,63 +5,103 @@
       "description": "Pizza clásica con salsa de tomate, mozzarella y albahaca.",
       "image": "https://img.freepik.com/foto-gratis/surtido-deliciosas-pizzas-tradicionales_23-2148921314.jpg?t=st=1705622950~exp=1705623550~hmac=83f18f63a5889a76bd73b9986fcdff4f9804b01f8500bd7c145d98f1fc93e4ef",
       "category": "PIZZA_TRAD",
-      "id": "1"
+      "id": "1",
+      "price": 1500
     },
     {
       "name": "Pepperoni",
       "description": "Pizza con salsa de tomate, mozzarella y pepperoni.",
       "image": "https://img.freepik.com/foto-gratis/bodegon-platos-comida-rapida_23-2149187953.jpg?t=st=1705622991~exp=1705623591~hmac=f0ef019e664af9d71cca64b3130cc8fc5d5b90133762fe7622ab85a43fb8b0bc",
       "category": "PIZZA_TRAD",
-      "id": "2"
+      "id": "2",
+      "estado": "PIZZA_MAR",
+      "price": 1500
     },
     {
       "name": "Hawaiana",
       "description": "Pizza con salsa de tomate, mozzarella, jamón y piña.",
       "image": "https://img.freepik.com/fotos-premium/deliciosa-pizza-hawaiana-servida-placa-madera-ingredientes-salsa-ajo-queso-mozzarella_94120-1128.jpg?w=740",
       "category": "PIZZA_TRAD",
-      "id": "3"
+      "id": "3",
+      "price": 1500
     },
     {
       "name": "Vegetariana",
       "description": "Pizza con salsa de tomate, mozzarella, champiñones, pimientos y cebolla.",
       "image": "https://img.freepik.com/foto-gratis/mujer-sostiene-rebanada-pizza-pollo-tomate-hongo-cubierto-hierbas_141793-2208.jpg?w=740&t=st=1705623051~exp=1705623651~hmac=c7ee43edf6724e57dd29e6f084b824947512233264150f67f6600bec4c7225de",
       "category": "PIZZA_VEG",
-      "id": "4"
+      "id": "4",
+      "price": 1500
     },
     {
       "name": "Cuatro Quesos",
       "description": "Pizza con salsa de tomate, mozzarella, gorgonzola, parmesano y queso de cabra.",
       "image": "https://img.freepik.com/foto-gratis/deliciosa-pizza-napolitana-tablero_78826-3300.jpg?w=740&t=st=1705623073~exp=1705623673~hmac=f10040763f6bb09f8f8924f14499959c86f48da3ca266da43a9eb569c3027b7d",
       "category": "PIZZA_TRAD",
-      "id": "5"
+      "id": "5",
+      "price": 1500
     },
     {
       "name": "Barbacoa",
       "description": "Pizza con salsa barbacoa, mozzarella, carne de res, cebolla y jalapeños.",
       "image": "https://img.freepik.com/foto-gratis/pizza-mixta-carne-picada_140725-6265.jpg?t=st=1705623089~exp=1705623689~hmac=cb8df58aa7be0b36f833cc4798d625a38c054fc4d1b003c4a83e8299faf1c3fa",
       "category": "PIZZA_MAR",
-      "id": "6"
+      "id": "6",
+      "price": 1500
+    },
+    {
+      "name": "Pizza con camarones",
+      "description": "Pizza con camarones, mozzarella, cebolla y jalapeños.",
+      "image": "https://img.freepik.com/foto-gratis/pizza-mixta-carne-picada_140725-6265.jpg?t=st=1705623089~exp=1705623689~hmac=cb8df58aa7be0b36f833cc4798d625a38c054fc4d1b003c4a83e8299faf1c3fa",
+      "category": "PIZZA_MAR",
+      "id": "6",
+      "price": 1500
     },
     {
       "name": "Coca Cola",
       "description": "Coca Cola",
       "image": "https://cdn-3.expansion.mx/dims4/default/1b14363/2147483647/strip/true/crop/2096x1430+0+0/resize/1200x819!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F95%2F6c%2F722abfb544dcb4a46b9ca967a1ef%2Fistock-499925476.jpg",
       "category": "BEBIDA",
-      "id": "13"
+      "id": "13",
+      "price": 1500
     },
     {
       "name": "Pepsi",
       "description": "Pepsi",
       "image": "https://img.asmedia.epimg.net/resizer/l-1EHK8jCvLKOuNpmkiRkVmVR38=/1472x1104/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/PXBJAINYZZHIFE4EKIKIWGYACA.jpg",
       "category": "BEBIDA",
-      "id": "14"
+      "id": "14",
+      "price": 1500
     },
     {
       "name": "Sprite",
       "description": "Sprite",
       "image": "https://01almacen.com.ar/cdn/shop/products/PACK-X8-GASEOSA-SPRITE-ORIGINAL-2-25-LITROS_20bc0a_21907_600x600_crop_center.jpg?v=1622311719",
       "category": "BEBIDA",
-      "id": "15"
+      "id": "15",
+      "price": 1500
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "PIZZA_TRAD",
+      "beautifulName": "Pizzas tradicionales"
+    },
+    {
+      "id": 1,
+      "name": "PIZZA_MAR",
+      "beautifulName": "Pizzas de mar"
+    },
+    {
+      "id": 1,
+      "name": "PIZZA_VEG",
+      "beautifulName": "Pizzas vegetarianas"
+    },
+    {
+      "id": 1,
+      "name": "BEBIDA",
+      "beautifulName": "Bebidas"
     }
   ]
 }
